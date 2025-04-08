@@ -1,0 +1,727 @@
+@media (max-width: 1066px) {
+  .header__nav-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .container {
+    max-width: 768px;
+    padding: 0 17px;
+  }
+
+  .header {
+    height: 80px;
+    max-width: 1530px;
+  }
+
+  .header__burger {
+    position: relative;
+    display: block;
+    border: none;
+    margin-right: 39px;
+    padding: 0;
+    width: 34px;
+    height: 24px;
+    background-color: transparent;
+  }
+
+  .header__burger-line {
+    position: absolute;
+    left: 35%;
+    border-radius: 2px;
+    width: 22px;
+    height: 3px;
+    background-color: #fff;
+    transform: translateX(-50%);
+  }
+
+  .header__burger-line:nth-child(1) {
+    top: 0;
+  }
+
+  .header__burger-line:nth-child(2) {
+    top: 11px;
+    left: 51%;
+    width: 34px;
+  }
+
+  .header__burger-line:nth-child(3) {
+    bottom: 0;
+    left: 41%;
+    width: 26px;
+  }
+
+  .header__logo-link {
+    width: 120px;
+  }
+
+  .header__logo-name {
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__right-block {
+    max-width: 357px;
+    min-width: 0;
+  }
+
+  .header__search-block {
+    max-width: 235px;
+  }
+
+  .header__search-bar {
+    max-width: 182px;
+  }
+
+  .header__search-button {
+    width: 39px;
+  }
+
+  .banner {
+    min-height: 142px;
+  }
+
+  .banner::before {
+    background-image: url("../img/background-banner-768.png");
+  }
+
+  .banner__content-block {
+    padding-top: 26px;
+    height: 100%;
+    max-width: 734px;
+    width: 100%;
+  }
+
+  .banner__logo {
+    margin-right: 13px;
+    max-width: 113px;
+    height: 90px;
+  }
+
+  .banner__left-block {
+    margin-right: auto;
+    padding: 0;
+    padding-top: 15px;
+    max-width: 258px;
+  }
+
+  .banner__title {
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  .banner__subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  .banner__right-block {
+    column-gap: 9%;
+    row-gap: 16px;
+    margin: 0;
+    padding: 0;
+    max-width: 244px;
+    min-height: 90px;
+  }
+
+  .banner__item {
+    min-height: 37px;
+    font-size: 14px;
+  }
+
+  .choose {
+    min-height: 636px;
+  }
+
+  .choose::before {
+    content: "";
+    position: absolute;
+    top: 222px;
+    left: 0;
+    width: 100%;
+    min-height: 636px;
+  }
+
+  .choose__image {
+    border: 1px solid #FF1735;
+    border-radius: 7px;
+    padding-top: 17px;
+    margin-bottom: 62px;
+    max-width: 732px;
+    height: 261px;
+    background-image: url('../img/choose-768.png');
+    background-size: cover;
+  }
+
+  .choose__image-text {
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .choose__title {
+    margin-bottom: 39px;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .choose__card:nth-child(3) {
+    margin: 0;
+  }
+
+  .choose__card {
+    max-width: 232px;
+    min-height: 165px;
+  }
+
+  .choose__card-title {
+    padding-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .choose__card-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .games-boost__title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .games-boost__cards-block {
+    min-height: 536px;
+  }
+
+  .games-boost__card {
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: calc(50% - 8px);
+    max-width: 487px;
+    min-height: 168px;
+  }
+
+  .games-boost__card:not(:nth-child(2n)) {
+    margin-right: 16px;
+  }
+
+  .games-boost__card_background-1 {
+    background-image: url('../img/background-boost-768-1.png');
+    background-size: cover;
+  }
+
+  .games-boost__card_background-2 {
+    background-image: url('../img/background-boost-768-2.png');
+    background-size: cover;
+  }
+
+  .games-boost__card_background-3 {
+    background-image: url('../img/background-boost-768-3.png');
+    background-size: cover;
+  }
+
+  .games-boost__card_background-4 {
+    background-image: url('../img/background-boost-768-4.png');
+    background-size: cover;
+  }
+
+  .games-boost__card_background-5 {
+    border-radius: 14px;
+    background-image: url('../img/background-boost-768-5.png');
+    background-size: cover;
+  }
+
+  .games-boost__card_background-6 {
+    background-image: url('../img/background-boost-768-6.png');
+    background-size: cover;
+  }
+
+  .games-boost__left-block {
+    gap: 11px;
+    max-width: 280px;
+    margin-top: 0;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    min-height: 156px;
+  }
+
+  .games-boost__left-block-title {
+    margin: 0;
+    padding-top: 31px;
+    padding-bottom: 9px;
+    max-width: 322px;
+    font-weight: 800;
+    font-size: 14px;
+  }
+
+  .games-boost__left-block-item {
+    border-radius: 4px;
+    padding: 0 5px;
+    min-height: 21px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .games-boost__red-block {
+    border-radius: 8px;
+    max-width: 172px;
+    height: 61px;
+    background-image: url('../img/red-name-768.png');
+    background-size: cover;
+  }
+
+  .games-boost__red-block-game-name {
+    margin-right: 13px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .products {
+    min-height: 252px;
+  }
+
+  .products::before {
+    min-height: 252px;
+  }
+
+  .products__block {
+    margin-top: 58px;
+  }
+
+  .products__title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 168%;
+  }
+
+  .support {
+    min-height: 733px;
+  }
+
+  .support__title {
+    margin-bottom: 39px;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .support__content-block {
+    min-height: 527px;
+  }
+
+  .support__card-block {
+    padding-top: 133px;
+  }
+
+  .support__card-block:first-child {
+    margin-top: 18px;
+    padding-top: 115px;
+    background-position: top left;
+  }
+
+  .support__card-block:last-child {
+    margin-top: 18px;
+    padding-top: 115px;
+    background-position: top right;
+  }
+
+  .support__block {
+    border-radius: 7px;
+    min-height: 304px;
+  }
+
+  .support__block-image {
+    max-width: 234px;
+    min-height: 304px;
+    background-image: url('../img/support-form-img-768.png');
+  }
+
+  .support__block-form {
+    padding: 28px 20px 0 20px;
+    min-height: 304px;
+  }
+
+  .support__block-form-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .support__block-form-description, .support__block-form-text {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .support__block-form-description {
+    margin-bottom: 6px;
+  }
+
+  .support__block-form-text {
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+
+  .support .support__block-form-text:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  .support-content-block-form-button {
+    max-width: 210px;
+  }
+}
+
+@media (max-width: 760px) {
+  .header {
+    height: 56px;
+  }
+
+  .header__container {
+    justify-content: space-between;
+  }
+
+  .header__burger {
+    width: 25px;
+    height: 20px;
+  }
+
+  .header__burger-line {
+    height: 2px;
+    border-radius: 0;
+  }
+
+  .header__burger-line:nth-child(1) {
+    top: 0;
+    left: 8px;
+    width: 16px;
+  }
+
+  .header__burger-line:nth-child(2) {
+    top: 7px;
+    left: 12px;
+    width: 25px;
+  }
+
+  .header__burger-line:nth-child(3) {
+    bottom: 4px;
+    left: 9px;
+    width: 19px;
+  }
+
+  .header__logo-link {
+    width: 95px;
+  }
+
+  .header__logo-name {
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .header__currency {
+    display: none;
+  }
+
+  .header__right-block {
+    max-width: 97px;
+  }
+
+  .header__right-block-user-button {
+    margin-right: 18px;
+  }
+
+  .header__search-block {
+    display: none;
+  }
+}
+
+@media (max-width: 724px) {
+  .choose {
+    padding-bottom: 19px;
+    min-height: 899px;
+  }
+
+  .choose__title {
+    margin-bottom: 27px;
+  }
+
+  .choose__cards-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choose__card {
+    margin: 0;
+    max-width: 690px;
+    width: 100%;
+  }
+
+  .choose__card:not(:nth-child(3)) {
+    margin: 0;
+  }
+
+  .choose__card-description {
+    padding-bottom: 18px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .games-boost__title {
+    margin-top: 40px;
+    margin-bottom: 19px;
+  }
+
+  .games-boost__cards-block {
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 40px;
+  }
+
+  .games-boost__card {
+    border-radius: 6px;
+    margin-bottom: 20px;
+    min-height: 132px;
+    width: 100%;
+  }
+
+  .games-boost__card:not(:nth-child(2n)) {
+    margin-right: 0;
+  }
+
+  .games-boost__card:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .games-boost__left-block {
+    gap: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    min-height: 119px;
+  }
+
+  .games-boost__left-block-title {
+    /*padding-top: 0;*/
+    margin-right: 77px;
+    padding-top: 24px;
+    padding-bottom: 4px;
+    font-weight: 800;
+    font-size: 12px;
+  }
+
+  .games-boost__left-block-item {
+    border-radius: 3px;
+    padding: 0 2px;
+    min-height: 16px;
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .games-boost__red-block {
+    max-width: 134px;
+    height: 48px;
+  }
+
+  .games-boost__red-block-game-name {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 620px) {
+  .support__title {
+    margin-top: 40px;
+    margin-bottom: 34px;
+  }
+
+  .support__cards-block {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+
+  .support__card-block {
+    margin-bottom: 45px;
+    padding-top: 132px;
+    background-position: top center;
+  }
+
+  .support__card-block:first-child,
+  .support__card-block:last-child {
+    margin: 0;
+    margin-bottom: 45px;
+    padding-top: 95px;
+    background-position: top center;
+  }
+
+  .support__card-block:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .support__block {
+    flex-direction: column;
+  }
+
+  .support__block-form {
+    padding: 28px 14px 0 14px;
+    min-height: 404px;
+  }
+
+  .support__block-form-title {
+    margin-bottom: 22px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .support__block-form-description {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .support__block-form-text {
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .support .support__block-form-text:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  .support-content-block-form-button {
+    max-width: 246px;
+  }
+
+  .support__block-image {
+    border: 0;
+    max-width: 100%;
+    min-height: 260px;
+    background-image: url('../img/support-form-img-320.png');
+  }
+
+  .banner {
+    align-items: flex-start;
+    min-height: 107px;
+  }
+
+  .banner__content-block {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-top: 6px;
+    max-width: 586px;
+    width: 100%;
+  }
+
+  .banner__logo {
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .banner__left-block {
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+    max-width: 133px;
+  }
+
+  .banner__title {
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .banner__right-block {
+    justify-content: flex-end;
+    row-gap: 7px;
+    column-gap: 10px;
+    max-width: 200px;
+  }
+
+  .banner__item {
+    min-height: 29px;
+    font-weight: 600;
+    font-size: 11.5px;
+  }
+}
+
+@media (max-width: 479px) {
+  .banner {
+    min-height: 172px;
+  }
+
+  .banner__left-block {
+    margin: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 0 20px;
+  }
+
+  .banner__right-block {
+    justify-content: flex-end;
+    row-gap: 7px;
+    column-gap: 10px;
+    max-width: 286px;
+    width: 100%;
+    min-height: 76px;
+  }
+
+  .banner__item {
+    min-height: 29px;
+    font-weight: 600;
+    font-size: 11.5px;
+  }
+
+  .choose__image {
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    margin-bottom: 40px;
+    max-width: 278px;
+    height: 196px;
+  }
+
+  .choose__image-text {
+    max-width: 200px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .products {
+    min-height: 261px;
+  }
+
+  .products__block {
+    margin-top: 39px;
+  }
+
+  .products__title {
+    margin-bottom: 27px;
+  }
+
+  .products__button {
+    width: 280px;
+  }
+}
