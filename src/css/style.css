@@ -226,7 +226,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 4px;
-  padding: 0px;
+  padding: 0;
   padding-top: 37px;
   border-radius: 6px;
   width: 98px;
@@ -371,7 +371,7 @@ form {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../img/background-banner.png');
+  background-image: url('../img/background-banner.webp');
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -471,7 +471,7 @@ form {
   margin-bottom: 58px;
   width: 100%;
   height: 543px;
-  background-image: url('../img/choose-image.png');
+  background-image: url('../img/choose-image.webp');
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -601,28 +601,28 @@ form {
 }
 
 .games-boost__card_background-1 {
-  background-image: url('../img/background-boost-1.png');
+  background-image: url('../img/background-boost-1.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .games-boost__card_background-2 {
-  background-image: url('../img/background-boost-2.png');
+  background-image: url('../img/background-boost-2.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .games-boost__card_background-3 {
-  background-image: url('../img/background-boost-3.png');
+  background-image: url('../img/background-boost-3.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .games-boost__card_background-4 {
-  background-image: url('../img/background-boost-4.png');
+  background-image: url('../img/background-boost-4.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -630,14 +630,14 @@ form {
 
 .games-boost__card_background-5 {
   border-radius: 14px;
-  background-image: url('../img/background-boost-5.png');
+  background-image: url('../img/background-boost-5.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .games-boost__card_background-6 {
-  background-image: url('../img/background-boost-6.png');
+  background-image: url('../img/background-boost-6.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -896,7 +896,7 @@ form {
   width: 100%;
   min-height: 486px;
   box-sizing: border-box;
-  background-image: url('../img/support-form-img.png');
+  background-image: url('../img/support-form-img.webp');
   background-size: cover;
   background-position: center;
 }

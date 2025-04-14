@@ -91,7 +91,7 @@
   }
 
   .banner::before {
-    background-image: url("../img/background-banner-768.png");
+    background-image: url("../img/background-banner-768.webp");
   }
 
   .banner__content-block {
@@ -162,7 +162,7 @@
     margin-bottom: 62px;
     max-width: 732px;
     height: 261px;
-    background-image: url('../img/choose-768.png');
+    background-image: url('../img/choose-768.webp');
     background-size: cover;
   }
 
@@ -221,33 +221,33 @@
   }
 
   .games-boost__card_background-1 {
-    background-image: url('../img/background-boost-768-1.png');
+    background-image: url('../img/background-boost-768-1.webp');
     background-size: cover;
   }
 
   .games-boost__card_background-2 {
-    background-image: url('../img/background-boost-768-2.png');
+    background-image: url('../img/background-boost-768-2.webp');
     background-size: cover;
   }
 
   .games-boost__card_background-3 {
-    background-image: url('../img/background-boost-768-3.png');
+    background-image: url('../img/background-boost-768-3.webp');
     background-size: cover;
   }
 
   .games-boost__card_background-4 {
-    background-image: url('../img/background-boost-768-4.png');
+    background-image: url('../img/background-boost-768-4.webp');
     background-size: cover;
   }
 
   .games-boost__card_background-5 {
     border-radius: 14px;
-    background-image: url('../img/background-boost-768-5.png');
+    background-image: url('../img/background-boost-768-5.webp');
     background-size: cover;
   }
 
   .games-boost__card_background-6 {
-    background-image: url('../img/background-boost-768-6.png');
+    background-image: url('../img/background-boost-768-6.webp');
     background-size: cover;
   }
 
@@ -349,7 +349,7 @@
   .support__block-image {
     max-width: 234px;
     min-height: 304px;
-    background-image: url('../img/support-form-img-768.png');
+    background-image: url('../img/support-form-img-768.webp');
   }
 
   .support__block-form {
@@ -615,7 +615,7 @@
     border: 0;
     max-width: 100%;
     min-height: 260px;
-    background-image: url('../img/support-form-img-320.png');
+    background-image: url('../img/support-form-img-320.webp');
   }
 
   .banner {
